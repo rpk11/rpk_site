@@ -1,0 +1,490 @@
+html,
+body {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    background-color: #555555;
+    overflow-x: hidden;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 0;
+    width: 80%;
+    z-index: 1;
+}
+
+.container h1 {
+    font-size: 4.5rem;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    mix-blend-mode: overlay;
+}
+
+#line {
+    width: 0px;
+    height: 0px;
+    animation-name: underlineText;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.container #sub-heading {
+    margin-left: 5px;
+    font-size: 1.5rem;
+    animation-name: showText;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+a {
+    color: #f16334;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link-underline-effect a {
+    background-image: linear-gradient(#f16334, #f16334);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: all .3s;
+}
+
+a:hover {
+    color: white;
+    background-size: 100% 2px;
+}
+
+header {
+    position: absolute;
+    margin: auto;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 10px;
+    background: #f16334;
+    box-sizing: border-box;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+#navbar {
+    float: right;
+    display: flex;
+}
+
+#logo {
+    float: left;
+    height: 75px;
+    height: 75px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.navbar-items {
+    list-style: none;
+}
+
+.navbar-items a {
+    color: white;
+    margin: 0 5px 0 5px;
+    padding: 10px 5px;
+    transition: background 1s;
+    display: block;
+}
+
+.navbar-items a:hover {
+    background: #555555;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    height: 80vh;
+    width: 100vw;
+}
+
+section video {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80vh;
+    width: 100vw;
+    max-width: 100%;
+    max-height: 80vh;
+    z-index: 0;
+    object-fit: fill;
+}
+
+#section1 {
+    background: url("file:///C:/Users/Rich/Documents/Web/non-git/rpkSite/images/White-Keyboard.jpg") fixed no-repeat;
+    color: white;
+    border-bottom: 2px solid #f16334;
+}
+
+#skills,
+#process,
+#portfolio,
+#about,
+#contact {
+    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+}
+
+.header-style-orange {
+    margin: 50px 0 50px 0;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: #f16334;
+}
+
+.header-style-white {
+    margin: 50px 0 50px 0;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header-style-gray {
+    margin: 50px 0 50px 0;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.header-alternate {
+    color: white;
+}
+
+#container-boxes {
+    display: flex;
+}
+
+.portfolio-container-box {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.portfolio-image-box {
+    position: relative;
+    max-width: 400px;
+    max-height: 300px;
+    min-width: 400px;
+    min-height: 300px;
+    background: #868282;
+}
+
+
+/* Set up the style of the pseudo element we want to show on hover */
+
+.portfolio-image-box::after {
+    content: "Learn More";
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 50px;
+    pointer-events: none;
+}
+
+
+/* Make the stuff we setup in the before element show on hover */
+
+.portfolio-image-box:hover::after {
+    opacity: 1;
+}
+
+
+/* Setup to transition the opacity of the image in the box */
+
+.portfolio-image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: all 1s;
+    transform-origin: left;
+}
+
+
+/* Dim the opacity of the image so we can see the grey background on hover */
+
+.portfolio-image-box:hover img {
+    opacity: 0.2;
+}
+
+
+/* Style the overlay text on top of the image */
+
+.portfolio-image-box {
+    font-size: 1.5rem;
+    text-shadow: -5px 0px 7px #000000;
+}
+
+.portfolio-text-box {
+    width: 50%;
+    min-width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.portfolio-text-box h2 {
+    margin-bottom: 16px;
+}
+
+.boxes img {
+    height: 125px;
+}
+
+.boxes {
+    flex-basis: 33.3%;
+    color: white;
+}
+
+#process {
+    background: white;
+    color: #555555;
+}
+
+#process-image {
+    width: 60%;
+    height: 60%;
+}
+
+#about {
+    background: #f16334;
+    color: white;
+}
+
+.narrow {
+    width: 50%;
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: #f16334;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    animation: pulsingButton 1s linear infinite;
+}
+
+.btn:hover {
+    background: white;
+    color: #f16334;
+    animation: pulsingButtonHover 1s ease-in-out infinite;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background: #333333;
+    color: white;
+    height: 175px;
+    text-align: center;
+    margin: auto;
+    border-top: #f16334 2px solid;
+    top: auto;
+    bottom: 0;
+}
+
+@keyframes showText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* The effect starts off close to the button, and make it invisible slowly for a nice pulse sort of effect*/
+
+@keyframes pulsingButton {
+    0% {
+        box-shadow: 0px 0px 0px 0px rgba(241, 99, 52, 1);
+    }
+    50% {
+        box-shadow: 0px 0px 0px 0px rgba(241, 99, 52, 0.5);
+    }
+    100% {
+        box-shadow: 0px 0px 0px 25px rgba(241, 99, 52, 0);
+    }
+}
+
+@keyframes pulsingButtonHover {
+    0% {
+        box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0);
+    }
+}
+
+@media(max-width: 1799px) {
+    #process-image {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+
+/* Medium screen */
+
+@media(max-width: 1050px) {
+    .portfolio-container-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio-text-box {
+        width: 100%;
+    }
+    #portfolio-img-alt-side {
+        order: 1;
+    }
+    #portfolio-text-alt-side {
+        order: 2;
+    }
+    #process-image {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/* Small screen */
+
+@media(max-height:200px) {
+    section video {
+        display: none;
+    }
+    #section1 {
+        background: url("file:///C:/Users/Rich/Documents/Web/non-git/rpkSite/images/White-Keyboard.jpg") center no-repeat;
+    }
+    #content h1,
+    #content #sub-heading {
+        font-size: 26px;
+    }
+}
+
+@media(max-height:639px) {
+    #content h1,
+    #content #sub-heading {
+        font-size: 26px;
+    }
+}
+
+@media(max-width:768px) {
+    #navbar {
+        display: none;
+        float: left;
+        width: 85%;
+    }
+    #menu-toggle {
+        display: block;
+        color: white;
+        text-align: center;
+        float: right;
+        cursor: pointer;
+    }
+    #menu-toggle::before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        font-size: 2rem;
+        line-height: 50px;
+    }
+    .container {
+        margin-bottom: 20px;
+    }
+    .narrow {
+        width: 80%;
+    }
+    section video {
+        object-fit: cover;
+    }
+    #container-boxes {
+        flex-direction: column;
+    }
+    #content {
+        text-align: center;
+    }
+    .boxes {
+        margin-bottom: 100px;
+    }
+    .portfolio-image-box {
+        margin-bottom: 10px;
+    }
+    .btn {
+        margin-bottom: 50px;
+    }
+    @keyframes underlineText {
+        0% {
+            background-color: white;
+            width: 0px;
+            height: 5px;
+        }
+        100% {
+            background-color: #f16334;
+            width: 100%;
+            height: 5px;
+        }
+    }
+}
+
+
+/* When the screen width is at least 767px, apply the following rules */
+
+@media(min-width:767px) {
+    @keyframes underlineText {
+        0% {
+            background-color: white;
+            width: 0px;
+            height: 5px;
+        }
+        100% {
+            background-color: #f16334;
+            width: 1000px;
+            height: 5px;
+        }
+    }
+}

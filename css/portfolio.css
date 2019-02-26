@@ -1,0 +1,65 @@
+.container {
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+#portfolio-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.portfolio-image {
+    width: 350px;
+    height: 339px;
+}
+
+.journey-map-image {
+    width: 100%;
+    min-width: 350px;
+    text-align: center;
+}
+
+#company-background,
+#journey-map,
+#problem-statement,
+#wireframes {
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+#company-background {
+    margin-top: 100px;
+}
+
+#company-background .container h1 {
+    font-size: 1.5rem;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    mix-blend-mode: overlay;
+    text-align: center;
+}
+
+#company-background .container img,
+#problem-statement .container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#company-background .container img:first-child {
+    margin-top: 20px;
+}
+
+.portfolio-wireframe-box {
+    text-align: center;
+    margin: 20px;
+}
+
+#problem-statement li {
+    margin-bottom: 20px;
+}
