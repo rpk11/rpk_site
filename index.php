@@ -103,14 +103,15 @@
             </div>
             <div class="portfolio-container-box">
                 <div class="portfolio-image-box">
-                    <a href="#"><img src="https://unsplash.it/400/300?random"></a>
+                    <a href="#"><img src="./images/whc-preview.png"></a>
                 </div>
                 <div class="portfolio-text-box link-underline-effect">
                     <img src="./images/orangeline.png">
                     <h2><a href="#">Willamette Hurling Club</a></h2>
                     <img src="./images/orangeline.png">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam modi corporis rerum, sint molestias possimus quia maxime quo iste nesciunt nemo voluptate minima, distinctio magnam minus veritatis architecto. Quaerat cum sit totam
-                        aut vel nulla reiciendis nam blanditiis recusandae natus? Accusamus ea dolores quis ipsam corporis eum labore doloribus.
+                    <p>Willamette Hurling Club are based in Portland, Oregon. As one of their main recruitment mechanisms for recruiter in this niche sport in Oregon, their website had significant challenges. It performed poorly on mobile, which makes up
+                        50% of all the traffic to their website. With this project, I redesigned their website from scratch to give it a more suitable look and feel for the audience they are trying to attract and ensure it performs well on mobile devices.
+
                     </p>
                 </div>
             </div>
@@ -120,7 +121,7 @@
                     <h2><a href="portfolio-project2.php">Stena Line</a></h2>
                     <img src="./images/orangeline.png">
                     <p>Stena Line are one of the largest ferry operators in the world, however I have noticed significant possiblilities for improvements in terms of UX on their website. In this unsolicited re-design, I discuss some of the usability issues
-                        and propose an improved re-design of their website which greatly enhances the user experience for their customers.
+                        and propose an improved re-design of their website which greatly enhances the user experience for their customers. This project shows both lo and high fidelity designs as well as the user journey map.
                     </p>
                 </div>
                 <div class="portfolio-image-box" id="portfolio-img-alt-side">
@@ -188,6 +189,7 @@
 
     <script src="./js/main.js"></script>
     <script src="./js/form-val.js"></script>
+    <script src="./js/contact-btn.js"></script>
 </body>
 
 </html>

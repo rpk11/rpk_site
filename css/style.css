@@ -129,7 +129,7 @@ section video {
 }
 
 #section1 {
-    background: url("file:///C:/Users/Rich/Documents/Web/non-git/rpkSite/images/White-Keyboard.jpg") fixed no-repeat;
+    background: url("../images/White-Keyboard.jpg") fixed no-repeat;
     color: white;
     border-bottom: 2px solid #f16334;
 }

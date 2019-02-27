@@ -107,15 +107,76 @@
     <section id="journey-map">
         <div class="container">
             <h2>Journey Map</h2>
+            <p> A journey map is an important part of the design process which allows us to think through the goals the users are trying to achieve, the steps that get them there, any design points in keep in mind, and what the content priorities should be. 
+                This allows us to design the details. Good design and UX is all about details - and they shouldn't happen by accident. Journey maps come in various shapes and sizes as there is no universal template. Below is the journey map template I most like to use. </p>
             <div id="portfolio-box-container">
                 <a href="images/sl-user-journey-map.jpg"><img class="journey-map-image" src="images/sl-user-journey-map.jpg"></a>
             </div>
         </div>
     </section>
+
+    <section id="design-prototype">
+        <div class="container">
+            <h2>Design Prototype</h2>
+            <p>
+                We will also ensure that the user has the quickest possible path to complete the booking. From both a business perspective and usability perspective, as soon as a user has made a decision to purchase, you have to do everything possible to get them to
+                the end as quickly as possible. In practical terms, this means defaulting selections/options to the choices which are most common for the greatest number of users. You will also see an example of that on the vehicle screen as we give the
+                user the ability to skip the cabins section if they know in advance they are not interested. It's all about getting their trip booked as quickly and efficiently as possible so that they can go and look forward to their impending trip.
+            </p>
+            <div id="portfolio-box-container">
+                <div class="portfolio-wireframe-box">
+                    <a href="images/stena-line-index.png"><img class="design-prototype-image" src="images/stena-line-index.png"></a>
+                    <p>Home screen</p>
+                </div>
+
+                <div class="portfolio-wireframe-box">
+                    <a href="images/stena-line-index-passenger-menu.png"><img class="design-prototype-image" src="images/stena-line-index-passenger-menu.png"></a>
+                    <p>Home with passenger menu</p>
+                </div>
+
+                <div class="portfolio-wireframe-box">
+                    <a href="images/stena-line-search-results-outbound.png"><img class="design-prototype-image" src="images/stena-line-search-results-outbound.png"></a>
+                    <p>Search results for outbound journey</p>
+                </div>
+
+                <div class="portfolio-wireframe-box">
+                    <a href="images/stena-line-search-results-return.png"><img class="design-prototype-image" src="images/stena-line-search-results-return.png"></a>
+                    <p>Search results for return journey</p>
+                </div>
+
+                <div class="portfolio-wireframe-box">
+                    <a href="images/stena-line-vehicles.png"><img class="design-prototype-image" src="images/stena-line-vehicles.png"></a>
+                    <p>Add vehicle screen</p>
+                </div>
+
+                <div class="portfolio-wireframe-box">
+                    <a href="images/stena-line-cabins.png"><img class="design-prototype-image-scroller" src="images/stena-line-cabins.png"></a>
+                    <p>Add cabins screen (page is scrollable)</p>
+                </div>
+
+                <div class="portfolio-wireframe-box">
+                    <a href="images/stena-line-checkout.png"><img class="design-prototype-image-scroller" src="images/stena-line-checkout.png"></a>
+                    <p>Checkout: review selections (page is scrollable)</p>
+                </div>
+
+                <div class="portfolio-wireframe-box">
+                    <a href="images/stena-line-checkout-form.png"><img class="design-prototype-image-scroller" src="images/stena-line-checkout-form.png"></a>
+                    <p>Checkout: form (page is scrollable)</p>
+                </div>
+
+                <div class="portfolio-wireframe-box">
+                    <a href="images/stena-line-confirmation.png"><img class="design-prototype-image" src="images/stena-line-confirmation.png"></a>
+                    <p>Checkout: confirmation</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
 <?php
     include 'footer.php';
 ?>
-    <script src="./js/main.js"></script>
 </body>
 
 </html>
