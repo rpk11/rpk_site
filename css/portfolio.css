@@ -25,15 +25,20 @@
     height: 409px;
 }
 
+.design-prototype-image-whc {
+    width: 750px;
+    height: 756px;
+}
+
 .design-prototype-image-scroller {
     width: 750px;
     height: 708px;
 }
 
 .journey-map-image {
-    width: 100%;
-    min-width: 350px;
-    text-align: center;
+    margin-top: 20px;
+    width: 750px;
+    height: 563px;
 }
 
 #company-background,
@@ -90,6 +95,14 @@
         width: 450px;
         height: 425px;
     }
+    .design-prototype-image-whc {
+        width: 450px;
+        height: 454px;
+    }
+    .journey-map-image {
+        width: 450px;
+        height: 338px;
+    }
 }
 
 @media(max-width:550px) {
@@ -104,5 +117,13 @@
     .portfolio-image-whc {
         width: 300px;
         height: 456px;
+    }
+    .design-prototype-image-whc {
+        width: 300px;
+        height: 303px;
+    }
+    .journey-map-image {
+        width: 300px;
+        height: 225px;
     }
 }

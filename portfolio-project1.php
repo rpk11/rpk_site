@@ -100,17 +100,19 @@
             </div>
         </div>
     </section>
-
-    <section id="journey-map">
+    <section id="design-prototype">
         <div class="container">
-            <h2>Journey Map</h2>
-            <p> A journey map is an important part of the design process which allows us to think through the goals the users are trying to achieve, the steps that get them there, any design points in keep in mind, and what the content priorities should be. 
-                This allows us to design the details. Good design and UX is all about details - and they shouldn't happen by accident. Journey maps come in various shapes and sizes as there is no universal template. Below is the journey map template I most like to use. </p>
-            <div id="portfolio-box-container">
-                <a href="images/sl-user-journey-map.jpg"><img class="journey-map-image" src="images/sl-user-journey-map.jpg"></a>
-            </div>
+            <h2>Design Prototype</h2>
+            <p>
+                The clubs colours are amber (primary), navy (secondary) and white (tertiary). The colours are tricky to work with, so we will use white as the main background for the site as it is the most neutral. Amber text on a navy background doesn't look or feel natural.
+            </p>
+            <p>The site is responsive so it is usable on mobile. An example of this can be seen is that the menu options will be replaced with a standard menu icon which drops down the options when it is clicked. The iframes which hold the YouTube videos and the google calendar will appear smaller on mobile and preserve their aspect ratio, similiar to the images on the site. 
+            </p>
+            <a href="http://www.richiekelly.net/test/whc"><button class="btn" id="contact-me">See the design live</button></a>
         </div>
-    </section>
+    </section> 
+
+
 <?php
     include 'footer.php';
 ?>
