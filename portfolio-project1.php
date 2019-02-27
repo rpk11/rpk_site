@@ -30,34 +30,38 @@
     <section id="problem-statement">
         <div class="container">
             <h2>Problem Statement(s)</h2>
-            <p>Having conducted usability testing, it's clear there are a number of potential areas for improvement in terms of usability and user experience. </li>
+            <p>Having conducted usability testing, it's clear there are a number of potential areas for improvement in terms of usability and user experience. </p>
                 <ul>
-                    <li>Home page offers the same links in a variety of ways for ferries to Britian, France and the Rest of Europe in multiple ways (through clickable tabs, and through 3 side by side content boxes).</li>
-                    <li>When clicking on “Ferries to France”, “Free trip to Britain” is prominently displayed as one of 3 images on the next page.</li>
-                    <!-- car drop down-->
-                    <li>Under “How are you travelling” the user is forced to select an option from the dropdown list. This is requiring extra, unnecessary input from the user and should default to “On foot with no vehicles” which is the option which requires
-                        the least amount of input from the most amount of users. In 2017, Stena Line had 7.4 million passengers, and 1.7 million cars (source: https://www.stenaline.ie/about-stena-line). An error is generated if any option is not selected.</li>
-                    <li>This dropdown has confusion options, as it talks about vehicle lengths and widths. Many users will not know the exact dimensions of their vehicles.</li>
-                    <!-- booking menu-->
-                    <li>The checkbox for flexible dates is away from all of the other fields regarding dates, and thus was missed by during usability testing.</li>
-                    <!-- booking dates-->
-                    <li>On the search results page, if there are no sailings on a particular date, a “please select alternative dates” message is displayed, without showing what dates the ferries sail on. This is not particularly helpful to the user and is
-                        making the user work harder for the information than they should have to. </li>
-                    <!-- flexi ticket-->
-                    <li>There are two radio button to select a Flexi ticket (one for outward, one for return). If this is not selected, the user can not continue. As such, this is extra work for the user, by forcing the user to select something which is in
-                        effect - required and default. If the user doesn’t select the Flexi ticket radio button, an error message is displayed.</li>
-                    <!-- cabin tab-->
-                    <li>On the Cabins screen, two tabs appear, one for “outward trip” and one for “return trip” - both of the tabins say “mandatory”. This appears that a cabin is required for each leg of the trip which is not correct. When scrolling down
-                        to the bottom of the the page, a user may select “Sailing with no cabin or reclining seat”. This means that cabins are not mandatory.</li>
-                    <!-- cabin sleep image-->
-                    <li>The images for some of the cabins (eg: 6-berth outside cabin) are generic (eg: person sleeping) and do not show what the cable looks like which is key for the user deciding to pick a cabin.</li>
-                    <li>If a number of adults are travelling (eg: 3 adults), the system doesn’t guard against user error on selecting the number of cabins. For example, a user travelling as part of 3 adults may select 1 reclining seat, 1 sailing with no cabin
-                        or reclining seat, and 2 child cots without any warning.</li>
-                    <li>In cases where the user has selected a long journey (eg: 16 hours from Rosslare to Cherbourg), and has not selected a cabin or reclining seat, it is not flagged to the user that this is a 16 hour journey which is a long time to be
-                        without a comfortable place to sit or rest. This design is lacking empathy with the user.</li>
+                    <li>The club website (before this project) doesn't perform well on mobile. The google calendar overruns the width of the viewport. This means that the days where most events take place (Wednesday, Saturday, Sunday) are not visible to the user. This means the calendar is of limited to no value for existing club members or newcomers looking to get involved. The user can not scroll to the right to see those days.</li>
+                    <li>Also on mobile devices, the header has some issues. The logo is positioned toward left of center which looks out of position. In addition, the 'Willamette Hurling Club' text over the banner obscures some of the club logo. </li>
+                    <li>The footer is very basic and has a link to the clubs facebook page. However, there is no anchor text so the full url of the page shows. The text is the same as the rest of the text on the page so it is not obvious that this is a link. As a call to action, this can be significantly improved in order to stand out more. </li>
                 </ul>
         </div>
     </section>
+
+    <section id="user-research">
+        <div class="container">
+            <h2>User Research & Analysis</h2>
+            <p>There are two main types of target users for the website, existing club members and potentially new players looking for more information. For existing club members:</p>
+                <ul>
+                    <li>The main value of the website is that it should show the upcoming calendar of events for training & tournaments</li>
+                </ul>
+            <p>For potentially new players:</p>
+            <ul>
+                    <li>The site needs to emphasise the unique values of the club as a selling point over other clubs in the Northwest Division</li>
+                    <li>As the majority of the people in the area are not familiar with hurling, it must give background on the sport. EG:</li>
+                    <ul>
+                        <li>What is it?</li>
+                        <li>How is it played?</li>
+                        <li>What are the skills</li>
+                        <li>What are the positions</li>
+                        <li>What equipment is needed to get started </li>
+                    </ul>
+                </ul>
+
+        </div>
+    </section>
+
 
     <section id="wireframes">
         <div class="container">
@@ -73,33 +77,26 @@
             </p>
             <div id="portfolio-box-container">
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-1.png"><img class="portfolio-image" src="images/sl-1.png"></a>
+                    <a href="images/whc-index.png"><img class="portfolio-image-whc" src="images/whc-index.png"></a>
                     <p>Home screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-2.png"><img class="portfolio-image" src="images/sl-2.png"></a>
-                    <p>Search results screen</p>
+                    <a href="images/whc-what-is.png"><img class="portfolio-image-whc" src="images/whc-what-is.png"></a>
+                    <p>What is Hurling screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-3.png"><img class="portfolio-image" src="images/sl-3.png"></a>
-                    <p>Vehicle screen</p>
+                    <a href="images/whc-skills.png"><img class="portfolio-image-whc" src="images/whc-skills.png"></a>
+                    <p>Position & Skills screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-4.png"><img class="portfolio-image" src="images/sl-4.png"></a>
-                    <p>Cabin screen</p>
+                    <a href="images/whc-sch.png"><img class="portfolio-image-whc" src="images/whc-sch.png"></a>
+                    <p>Schedule & Events screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-5.png"><img class="portfolio-image" src="images/sl-5.png"></a>
-                    <p>Review selection</p>
+                    <a href="images/whc-contact.png"><img class="portfolio-image-whc" src="images/whc-contact.png"></a>
+                    <p>Contact screen</p>
                 </div>
-                <div class="portfolio-wireframe-box">
-                    <a href="images/sl-6.png"><img class="portfolio-image" src="images/sl-6.png"></a>
-                    <p>Checkout form</p>
-                </div>
-                <div class="portfolio-wireframe-box">
-                    <a href="images/sl-7.png"><img class="portfolio-image" src="images/sl-7.png"></a>
-                    <p>Confirmation screen</p>
-                </div>
+                
             </div>
         </div>
     </section>

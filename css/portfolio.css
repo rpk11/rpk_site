@@ -15,6 +15,11 @@
     height: 339px;
 }
 
+.portfolio-image-whc {
+    width: 350px;
+    height: 532px;
+}
+
 .design-prototype-image {
     width: 750px;
     height: 409px;
@@ -32,6 +37,7 @@
 }
 
 #company-background,
+#user-research,
 #journey-map,
 #problem-statement,
 #wireframes,
@@ -94,5 +100,9 @@
     .design-prototype-image-scroller {
         width: 300px;
         height: 283px;
+    }
+    .portfolio-image-whc {
+        width: 300px;
+        height: 456px;
     }
 }
