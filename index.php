@@ -130,14 +130,14 @@
             </div>
             <div class="portfolio-container-box">
                 <div class="portfolio-image-box">
-                    <a href="#"><img src="https://unsplash.it/400/300?random"></a>
+                    <a href="portfolio-project3.php"><img src="./images/nkc-preview.png"></a>
                 </div>
                 <div class="portfolio-text-box link-underline-effect">
                     <img src="./images/orangeline.png">
-                    <h2><a href="#">Some other Project</a></h2>
+                    <h2><a href="portfolio-project3.php">National Kart Center</a></h2>
                     <img src="./images/orangeline.png">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam modi corporis rerum, sint molestias possimus quia maxime quo iste nesciunt nemo voluptate minima, distinctio magnam minus veritatis architecto. Quaerat cum sit totam
-                        aut vel nulla reiciendis nam blanditiis recusandae natus? Accusamus ea dolores quis ipsam corporis eum labore doloribus.
+                    <p>
+                        National Kart Center have the world's longest indoor track as well as Europe's only drift kart track. Their facilities in Limerick and Cork are absolutely second to none, however there are many areas in which the design and user experience of their website could be much improved. This unsolicited project shows how this can be achieved.
                     </p>
                 </div>
             </div>
