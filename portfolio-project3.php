@@ -48,55 +48,46 @@
     <section id="wireframes">
         <div class="container">
             <h2>Wireframes</h2>
-            <p>Many users will have already had some level of experience of booking travel. This means most users will already likely have a mental model of how the booking process looks like. It's important to stick to the design principle of , while ensuring
-                the process is easily percievable for users with no experience. With this in mind, it's important that the home screen looks clear and inviting. We also need to pay particular care in guiding the user through parts which are unique to
-                booking a ferry - the ability to bring a vehicle and book a cabin.
+            <p>
+                There are a number of unique things about NKC that distinguish it from other karting places in Ireland, such as having the longest indoor track in the world, the only drift kart center in Europe and having outstanding ratings on Trip Advisor. We will want to ensure that some of these unqiue selling points make it onto the home page. In particular, we will have a prominent showcases that this is the world's longest indoor track. Our home screen is going to be scrollable 
             </p>
             <p>
-                We will also ensure that the user has the quickest possible path to complete the booking. From both a business perspective and usability perspective, as soon as a user has made a decision to purchase, you have to do everything possible to get them to
-                the end as quickly as possible. In practical terms, this means defaulting selections/options to the choices which are most common for the greatest number of users. You will also see an example of that on the vehicle screen as we give the
-                user the ability to skip the cabins section if they know in advance they are not interested. It's all about getting their trip booked as quickly and efficiently as possible so that they can go and look forward to their impending trip.
+                For the leaderboard, rather than having a plane table we are going to try incorpate our layout colours in something slightly more creative. This is a nice feature as it adds a target for the more competitive karters. Most of the other pages here are informational, so we will try to convey the key things to the users without too much clutter or having the pages look too plain. 
             </p>
+            
             <div id="portfolio-box-container">
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-1.png"><img class="portfolio-image" src="images/sl-1.png"></a>
+                    <a href="images/NKCwireframe-index.png"><img class="portfolio-image-nkc" src="images/NKCwireframe-index.png"></a>
                     <p>Home screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-2.png"><img class="portfolio-image" src="images/sl-2.png"></a>
-                    <p>Search results screen</p>
+                    <a href="images/NKCwireframe-leaderboard.png"><img class="portfolio-image-nkc" src="images/NKCwireframe-leaderboard.png"></a>
+                    <p>Leaderboard screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-3.png"><img class="portfolio-image" src="images/sl-3.png"></a>
-                    <p>Vehicle screen</p>
+                    <a href="images/NKCwireframe-adultkarting.png"><img class="portfolio-image-nkc" src="images/NKCwireframe-adultkarting.png"></a>
+                    <p>Adult Karting screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-4.png"><img class="portfolio-image" src="images/sl-4.png"></a>
-                    <p>Cabin screen</p>
+                    <a href="images/NKCwireframe-kidsclub.png"><img class="portfolio-image-nkc" src="images/NKCwireframe-kidsclub.png"></a>
+                    <p>Kids Club screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-5.png"><img class="portfolio-image" src="images/sl-5.png"></a>
-                    <p>Review selection</p>
+                    <a href="images/NKCwireframe-driftkarting.png"><img class="portfolio-image-nkc" src="images/NKCwireframe-driftkarting.png"></a>
+                    <p>Drfit Karting screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-6.png"><img class="portfolio-image" src="images/sl-6.png"></a>
-                    <p>Checkout form</p>
+                    <a href="images/NKCwireframe-contact.png"><img class="portfolio-image-nkc" src="images/NKCwireframe-contact.png"></a>
+                    <p>Contact Screen</p>
                 </div>
                 <div class="portfolio-wireframe-box">
-                    <a href="images/sl-7.png"><img class="portfolio-image" src="images/sl-7.png"></a>
-                    <p>Confirmation screen</p>
+                    <a href="images/NKCwireframe-gallery.png"><img class="portfolio-image-nkc" src="images/NKCwireframe-gallery.png"></a>
+                    <p>Gallery screen</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="journey-map">
-        <div class="container">
-            <h2>Journey Map</h2>
-            <p> A journey map is an important part of the design process which allows us to think through the goals the users are trying to achieve, the steps that get them there, any design points in keep in mind, and what the content priorities should be. 
-                This allows us to design the details. Good design and UX is all about details - and they shouldn't happen by accident. Journey maps come in various shapes and sizes as there is no universal template. Below is the journey map template I most like to use. </p>
-            <div id="portfolio-box-container">
-                <a href="images/sl-user-journey-map.jpg"><img class="journey-map-image" src="images/sl-user-journey-map.jpg"></a>
+                <div class="portfolio-wireframe-box">
+                    <a href="images/NKCwireframe-galleryopen.png"><img class="portfolio-image-nkc" src="images/NKCwireframe-galleryopen.png"></a>
+                    <p>Gallery screen with image open</p>
+                </div>
             </div>
         </div>
     </section>
@@ -105,54 +96,53 @@
         <div class="container">
             <h2>Design Prototype</h2>
             <p>
-                We will also ensure that the user has the quickest possible path to complete the booking. From both a business perspective and usability perspective, as soon as a user has made a decision to purchase, you have to do everything possible to get them to
-                the end as quickly as possible. In practical terms, this means defaulting selections/options to the choices which are most common for the greatest number of users. You will also see an example of that on the vehicle screen as we give the
-                user the ability to skip the cabins section if they know in advance they are not interested. It's all about getting their trip booked as quickly and efficiently as possible so that they can go and look forward to their impending trip.
+                In the final design, we have made some tweaks from our initial wireframes. The advantage of our wireframes is that we already had a general direction, but with the freedom to make changes in the high fidelity prototypes to any elements which didn't feel quite right.
+            </p>
+            <p>    
+                As the NKC logo is orange, white and black, we will incorpate these colours as the basis for our layout. One of the most prominent flags in racing is the black and white chequered flag so this fits nicely into the scheme of our layout as well as being very relevent to our general theme. 
+            </p>
+            <p>
+                We're using the chequered flag as a layout element on all of our pages except the home page (which would feel a little too cluttered). We also have a used background with really low opacity just to break under the plain look of our mainly white background. 
             </p>
             <div id="portfolio-box-container">
                 <div class="portfolio-wireframe-box">
-                    <a href="images/stena-line-index.png"><img class="design-prototype-image" src="images/stena-line-index.png"></a>
+                    <a href="images/NKCIndex.png"><img class="design-prototype-nkc-index-image" src="images/NKCIndex.png"></a>
                     <p>Home screen</p>
                 </div>
 
                 <div class="portfolio-wireframe-box">
-                    <a href="images/stena-line-index-passenger-menu.png"><img class="design-prototype-image" src="images/stena-line-index-passenger-menu.png"></a>
-                    <p>Home with passenger menu</p>
+                    <a href="images/NKCLeaderboard.png"><img class="design-prototype-nkc-small-image" src="images/NKCLeaderboard.png"></a>
+                    <p>Leaderboard screen</p>
                 </div>
 
                 <div class="portfolio-wireframe-box">
-                    <a href="images/stena-line-search-results-outbound.png"><img class="design-prototype-image" src="images/stena-line-search-results-outbound.png"></a>
-                    <p>Search results for outbound journey</p>
+                    <a href="images/NKCAdultKarting.png"><img class="design-prototype-nkc-standard-image" src="images/NKCAdultKarting.png"></a>
+                    <p>Adult Karting screen</p>
                 </div>
 
                 <div class="portfolio-wireframe-box">
-                    <a href="images/stena-line-search-results-return.png"><img class="design-prototype-image" src="images/stena-line-search-results-return.png"></a>
-                    <p>Search results for return journey</p>
+                    <a href="images/NKCKidsClub.png"><img class="design-prototype-nkc-standard-image" src="images/NKCKidsClub.png"></a>
+                    <p>Kids Club screen</p>
                 </div>
 
                 <div class="portfolio-wireframe-box">
-                    <a href="images/stena-line-vehicles.png"><img class="design-prototype-image" src="images/stena-line-vehicles.png"></a>
-                    <p>Add vehicle screen</p>
+                    <a href="images/NKCDriftKarting.png"><img class="design-prototype-nkc-standard-image" src="images/NKCDriftKarting.png"></a>
+                    <p>Drifting Karting screen</p>
                 </div>
 
                 <div class="portfolio-wireframe-box">
-                    <a href="images/stena-line-cabins.png"><img class="design-prototype-image-scroller" src="images/stena-line-cabins.png"></a>
-                    <p>Add cabins screen (page is scrollable)</p>
+                    <a href="images/NKCContact.png"><img class="design-prototype-nkc-small-image" src="images/NKCContact.png"></a>
+                    <p>Contact Screen</p>
                 </div>
 
                 <div class="portfolio-wireframe-box">
-                    <a href="images/stena-line-checkout.png"><img class="design-prototype-image-scroller" src="images/stena-line-checkout.png"></a>
-                    <p>Checkout: review selections (page is scrollable)</p>
+                    <a href="images/NKCGallery.png"><img class="design-prototype-nkc-standard-image" src="images/NKCGallery.png"></a>
+                    <p>Gallery screen</p>
                 </div>
 
                 <div class="portfolio-wireframe-box">
-                    <a href="images/stena-line-checkout-form.png"><img class="design-prototype-image-scroller" src="images/stena-line-checkout-form.png"></a>
-                    <p>Checkout: form (page is scrollable)</p>
-                </div>
-
-                <div class="portfolio-wireframe-box">
-                    <a href="images/stena-line-confirmation.png"><img class="design-prototype-image" src="images/stena-line-confirmation.png"></a>
-                    <p>Checkout: confirmation</p>
+                    <a href="images/NKCGalleryOpen.png"><img class="design-prototype-nkc-standard-image" src="images/NKCGalleryOpen.png"></a>
+                    <p>Gallery screen with image open</p>
                 </div>
 
             </div>

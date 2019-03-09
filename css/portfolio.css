@@ -15,6 +15,11 @@
     height: 339px;
 }
 
+.portfolio-image-nkc {
+    width: 350px;
+    height: 442px;
+}
+
 .portfolio-image-whc {
     width: 350px;
     height: 532px;
@@ -23,6 +28,21 @@
 .design-prototype-image {
     width: 750px;
     height: 409px;
+}
+
+.design-prototype-nkc-index-image {
+    width: 750px;
+    height: 1067px;
+}
+
+.design-prototype-nkc-standard-image {
+    width: 750px;
+    height: 757px;
+}
+
+.design-prototype-nkc-small-image {
+    width: 750px;
+    height: 661px;
 }
 
 .design-prototype-image-whc {

@@ -108,7 +108,7 @@
             </p>
             <p>The site is responsive so it is usable on mobile. An example of this can be seen is that the menu options will be replaced with a standard menu icon which drops down the options when it is clicked. The iframes which hold the YouTube videos and the google calendar will appear smaller on mobile and preserve their aspect ratio, similiar to the images on the site. 
             </p>
-            <a href="http://www.richiekelly.net/test/whc"><button class="btn" id="contact-me">See the design live</button></a>
+            <a href="http://www.willamettehurling.com" target="_blank"><button class="btn" id="contact-me">See the design live</button></a>
         </div>
     </section> 
 

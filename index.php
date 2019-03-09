@@ -99,19 +99,17 @@
         <div class="container narrow">
             <div class="header-style-white">
                 <h2>Portfolio</h2>
-                <p>Solicited or unsolicited design projects</p>
             </div>
             <div class="portfolio-container-box">
                 <div class="portfolio-image-box">
-                    <a href="portfolio-project1.php"><img src="./images/whc-preview.png"></a>
+                    <a href="portfolio-project3.php"><img src="./images/nkc-preview.png"></a>
                 </div>
                 <div class="portfolio-text-box link-underline-effect">
                     <img src="./images/orangeline.png">
-                    <h2><a href="portfolio-project1.php">Willamette Hurling Club</a></h2>
+                    <h2><a href="portfolio-project3.php">National Kart Center</a></h2>
                     <img src="./images/orangeline.png">
-                    <p>Willamette Hurling Club are based in Portland, Oregon. As one of their main recruitment mechanisms for recruiter in this niche sport in Oregon, their website had significant challenges. It performed poorly on mobile, which makes up
-                        50% of all the traffic to their website. With this project, I redesigned their website from scratch to give it a more suitable look and feel for the audience they are trying to attract and ensure it performs well on mobile devices.
-
+                    <p>
+                        National Kart Center have the world's longest indoor track as well as Europe's only drift kart track. Their facilities in Limerick and Cork are absolutely second to none, however there are many areas in which the design and user experience of their website could be much improved. This unsolicited project shows how this can be achieved.
                     </p>
                 </div>
             </div>
@@ -130,14 +128,15 @@
             </div>
             <div class="portfolio-container-box">
                 <div class="portfolio-image-box">
-                    <a href="portfolio-project3.php"><img src="./images/nkc-preview.png"></a>
+                    <a href="portfolio-project1.php"><img src="./images/whc-preview.png"></a>
                 </div>
                 <div class="portfolio-text-box link-underline-effect">
                     <img src="./images/orangeline.png">
-                    <h2><a href="portfolio-project3.php">National Kart Center</a></h2>
+                    <h2><a href="portfolio-project1.php">Willamette Hurling Club</a></h2>
                     <img src="./images/orangeline.png">
-                    <p>
-                        National Kart Center have the world's longest indoor track as well as Europe's only drift kart track. Their facilities in Limerick and Cork are absolutely second to none, however there are many areas in which the design and user experience of their website could be much improved. This unsolicited project shows how this can be achieved.
+                    <p>Willamette Hurling Club are based in Portland, Oregon. As one of their main recruitment mechanisms for recruiter in this niche sport in Oregon, their website had significant challenges. It performed poorly on mobile, which makes up
+                        50% of all the traffic to their website. With this project, I redesigned their website from scratch to give it a more suitable look and feel for the audience they are trying to attract and ensure it performs well on mobile devices.
+
                     </p>
                 </div>
             </div>
