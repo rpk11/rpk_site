@@ -36,7 +36,7 @@
                     <li>When clicking on “Ferries to France”, “Free trip to Britain” is prominently displayed as one of 3 images on the next page.</li>
                     <!-- car drop down-->
                     <li>Under “How are you travelling” the user is forced to select an option from the dropdown list. This is requiring extra, unnecessary input from the user and should default to “On foot with no vehicles” which is the option which requires
-                        the least amount of input from the most amount of users. In 2017, Stena Line had 7.4 million passengers, and 1.7 million cars (source: https://www.stenaline.ie/about-stena-line). An error is generated if any option is not selected.</li>
+                        the least amount of input from the most amount of users. In 2017, Stena Line had 7.4 million passengers, and 1.7 million cars. An error is generated if any option is not selected.</li>
                     <li>This dropdown has confusion options, as it talks about vehicle lengths and widths. Many users will not know the exact dimensions of their vehicles.</li>
                     <!-- booking menu-->
                     <li>The checkbox for flexible dates is away from all of the other fields regarding dates, and thus was missed by during usability testing.</li>
@@ -124,47 +124,47 @@
                 user the ability to skip the cabins section if they know in advance they are not interested. It's all about getting their trip booked as quickly and efficiently as possible so that they can go and look forward to their impending trip.
             </p>
             <div id="portfolio-box-container">
-                <div class="portfolio-wireframe-box">
+                <div class="portfolio-prototype-box">
                     <a href="images/stena-line-index.png"><img class="design-prototype-image" src="images/stena-line-index.png"></a>
                     <p>Home screen</p>
                 </div>
 
-                <div class="portfolio-wireframe-box">
+                <div class="portfolio-prototype-box">
                     <a href="images/stena-line-index-passenger-menu.png"><img class="design-prototype-image" src="images/stena-line-index-passenger-menu.png"></a>
                     <p>Home with passenger menu</p>
                 </div>
 
-                <div class="portfolio-wireframe-box">
+                <div class="portfolio-prototype-box">
                     <a href="images/stena-line-search-results-outbound.png"><img class="design-prototype-image" src="images/stena-line-search-results-outbound.png"></a>
                     <p>Search results for outbound journey</p>
                 </div>
 
-                <div class="portfolio-wireframe-box">
+                <div class="portfolio-prototype-box">
                     <a href="images/stena-line-search-results-return.png"><img class="design-prototype-image" src="images/stena-line-search-results-return.png"></a>
                     <p>Search results for return journey</p>
                 </div>
 
-                <div class="portfolio-wireframe-box">
+                <div class="portfolio-prototype-box">
                     <a href="images/stena-line-vehicles1.png"><img class="design-prototype-image" src="images/stena-line-vehicles1.png"></a>
                     <p>Add vehicle screen</p>
                 </div>
 
-                <div class="portfolio-wireframe-box">
+                <div class="portfolio-prototype-box">
                     <a href="images/stena-line-cabins1.png"><img class="design-prototype-image-scroller" src="images/stena-line-cabins1.png"></a>
                     <p>Add cabins screen (page is scrollable)</p>
                 </div>
 
-                <div class="portfolio-wireframe-box">
+                <div class="portfolio-prototype-box">
                     <a href="images/stena-line-checkout.png"><img class="design-prototype-image-scroller" src="images/stena-line-checkout.png"></a>
                     <p>Checkout: review selections (page is scrollable)</p>
                 </div>
 
-                <div class="portfolio-wireframe-box">
+                <div class="portfolio-prototype-box">
                     <a href="images/stena-line-checkout-form.png"><img class="design-prototype-image-scroller" src="images/stena-line-checkout-form.png"></a>
                     <p>Checkout: form (page is scrollable)</p>
                 </div>
 
-                <div class="portfolio-wireframe-box">
+                <div class="portfolio-prototype-box">
                     <a href="images/stena-line-confirmation.png"><img class="design-prototype-image" src="images/stena-line-confirmation.png"></a>
                     <p>Checkout: confirmation</p>
                 </div>
@@ -177,6 +177,7 @@
 <?php
     include 'footer.php';
 ?>
+<script src="./js/main.js"></script>
 </body>
 
 </html>

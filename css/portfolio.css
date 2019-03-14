@@ -102,6 +102,11 @@
     margin: 20px;
 }
 
+.portfolio-prototype-box {
+    text-align: center;
+    margin: 20px;
+}
+
 #problem-statement li {
     margin-bottom: 20px;
 }
@@ -122,6 +127,26 @@
     .journey-map-image {
         width: 450px;
         height: 338px;
+    }
+    .portfolio-image {
+        width: 450px;
+        height: 435px;
+    }
+    .portfolio-image-nkc {
+        width: 450px;
+        height: 568px;
+    }
+    .design-prototype-nkc-standard-image {
+        width: 450px;
+        height: 454px;
+    }
+    .design-prototype-nkc-small-image {
+        width: 450px;
+        height: 397px;
+    }
+    .design-prototype-nkc-index-image {
+        width: 450px;
+        height: 640px;
     }
 }
 
@@ -145,5 +170,71 @@
     .journey-map-image {
         width: 300px;
         height: 225px;
+    }
+    .portfolio-image {
+        width: 300px;
+        height: 290px;
+    }
+    .portfolio-image-nkc {
+        width: 300px;
+        height: 379px;
+    }
+    .design-prototype-nkc-standard-image {
+        width: 300px;
+        height: 303px;
+    }
+    .design-prototype-nkc-small-image {
+        width: 300px;
+        height: 265px;
+    }
+    .design-prototype-nkc-index-image {
+        width: 300px;
+        height: 427px;
+    }
+}
+
+@media(max-width:320px) {
+    .design-prototype-image {
+        width: 200px;
+        height: 109px;
+    }
+    .design-prototype-image-scroller {
+        width: 200px;
+        height: 189px;
+    }
+    .portfolio-image-whc {
+        width: 200px;
+        height: 304px;
+    }
+    .design-prototype-image-whc {
+        width: 200px;
+        height: 202px;
+    }
+    .journey-map-image {
+        width: 200px;
+        height: 150px;
+    }
+    .portfolio-image {
+        width: 200px;
+        height: 194px;
+    }
+    .portfolio-image-nkc {
+        width: 200px;
+        height: 252px;
+    }
+    .design-prototype-nkc-standard-image {
+        width: 200px;
+        height: 202px;
+    }
+    .design-prototype-nkc-small-image {
+        width: 200px;
+        height: 176px;
+    }
+    .design-prototype-nkc-index-image {
+        width: 200px;
+        height: 285px;
+    }
+    .container h1 {
+        letter-spacing: normal;
     }
 }

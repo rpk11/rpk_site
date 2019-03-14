@@ -23,7 +23,7 @@
     <section id="company-background">
         <div class="container">
             <img src="./images/orangeline.png">
-            <h1>Willamette Hurling Club Redesign & Implementation</h1>
+            <h1>Redesign & Implement the Willamette Hurling Club website</h1>
             <img src="./images/orangeline.png">
         </div>
     </section>
@@ -66,15 +66,12 @@
     <section id="wireframes">
         <div class="container">
             <h2>Wireframes</h2>
-            <p>Many users will have already had some level of experience of booking travel. This means most users will already likely have a mental model of how the booking process looks like. It's important to stick to the design principle of , while ensuring
-                the process is easily percievable for users with no experience. With this in mind, it's important that the home screen looks clear and inviting. We also need to pay particular care in guiding the user through parts which are unique to
-                booking a ferry - the ability to bring a vehicle and book a cabin.
-            </p>
             <p>
-                We will also ensure that the user has the quickest possible path to complete the booking. From both a business perspective and usability perspective, as soon as a user has made a decision to purchase, you have to do everything possible to get them to
-                the end as quickly as possible. In practical terms, this means defaulting selections/options to the choices which are most common for the greatest number of users. You will also see an example of that on the vehicle screen as we give the
-                user the ability to skip the cabins section if they know in advance they are not interested. It's all about getting their trip booked as quickly and efficiently as possible so that they can go and look forward to their impending trip.
+                We will have a showcase area with a banner which will be consistent through the entire site, as well as the menu bar. The will ensure the design remains consistent throughout each page.
             </p>
+            <p>Also, we'll have a few embedded iframes for youTube videos and for a google calendar showing events. We must be able to make these elements responsive which is a key assumption in this design. This can sometimes be tricky when not using bootstrap.
+            </p>
+            
             <div id="portfolio-box-container">
                 <div class="portfolio-wireframe-box">
                     <a href="images/whc-index.png"><img class="portfolio-image-whc" src="images/whc-index.png"></a>
