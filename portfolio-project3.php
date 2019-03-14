@@ -104,6 +104,7 @@
             <p>
                 We're using the chequered flag as a layout element on all of our pages except the home page (which would feel a little too cluttered). We also have a used background with really low opacity just to break under the plain look of our mainly white background. 
             </p>
+            <p> Be sure to click the images to view the prototype at it's true size in best quality.</p>
             <div id="portfolio-box-container">
                 <div class="portfolio-wireframe-box">
                     <a href="images/NKCIndex.png"><img class="design-prototype-nkc-index-image" src="images/NKCIndex.png"></a>

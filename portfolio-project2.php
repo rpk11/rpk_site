@@ -123,6 +123,7 @@
                 the end as quickly as possible. In practical terms, this means defaulting selections/options to the choices which are most common for the greatest number of users. You will also see an example of that on the vehicle screen as we give the
                 user the ability to skip the cabins section if they know in advance they are not interested. It's all about getting their trip booked as quickly and efficiently as possible so that they can go and look forward to their impending trip.
             </p>
+            <p> The screenshots below are scaled down. Be sure to click the images in order to view the prototype at 100% in best quality.</p>
             <div id="portfolio-box-container">
                 <div class="portfolio-prototype-box">
                     <a href="images/stena-line-index.png"><img class="design-prototype-image" src="images/stena-line-index.png"></a>
